@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Kimberly Andresen's Data Analysis Portfolio."
+    >
+
+    <title>Kimberly Andresen | Data Analysis</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a class="logo" href="#home">KA</a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="intro-section" id="home">
+
+    <div class="intro-container">
+
+        <div class="intro-photo">
+
+            <img
+                src="kimberly-crossed-headshot.png"
+                alt="Kimberly Andresen"
+            >
+
+        </div>
+
+        <div class="intro-content">
+
+            <p class="intro-label">
+                Applied Economics • Research • Data Analysis
+            </p>
+
+            <h1>
+                Kimberly Luu Andresen
+            </h1>
+
+            <p class="intro-title">
+                California State Polytechnic University, Pomona Graduate
+            </p>
+
+            <p class="intro-statement">
+                I use research and data analysis to explore real-world
+                economic questions and turn complex information into
+                meaningful insights.
+            </p>
+
+            <p class="intro-story">
+                After graduating from California State Polytechnic
+                University, Pomona with a degree in Economics, I developed
+                a strong interest in community impact,
+                statistical analysis, and evidence-based decision-making.
+                I enjoy taking broad questions, organizing the available
+                information, and figruing out trends between variables.
+            </p>
+
+            <div class="intro-skills">
+
+                <span>Regression Analysis</span>
+                <span>SQL</span>
+                <span>R Programming</span>
+                <span>Survey Analysis</span>
+                <span>Portfolio Writing</span>
+
+            </div>
+
+            <div class="intro-buttons">
+
+                <a
+                    class="primary-button"
+                    href="#research"
+                >
+                    View My Research
+                </a>
+
+                <a
+                    class="secondary-button"
+                    href="https://www.linkedin.com/in/kimberly-andresen4060"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Connect on LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+ </section>
+
+
+        <!-- Research Section -->
+        <section class="section research-section" id="research">
+            <div class="section-heading">
+                <p class="section-label">Featured Research</p>
+                <h2>Data Centers VS Housing Prices</h2>
+            </div>
+
+            <article class="research-card">
+
+                <div class="research-introduction">
+                    <div>
+                        <p class="project-type">
+                            Economics Research Project
+                        </p>
+
+                        <h3>
+                            Examining the relationship between data centers
+                            and nearby housing values
+                        </h3>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>Economics</span>
+                        <span>Housing</span>
+                        <span>Data Analysis</span>
+                        <span>Research</span>
+                    </div>
+                </div>
+
+
+                <div class="research-grid">
+
+                    <div class="research-block">
+                        <h4>Project Overview</h4>
+
+                        <p>
+                            Data centers provide essential digital
+                            infrastructure, but their development may also
+                            create costs for nearby communities. These possible
+                            effects include noise, visual disruption, increased
+                            energy demand, construction activity, and pressure
+                            on local infrastructure.
+                        </p>
+
+                        <p>
+                            This research explored whether the manufacturing of data
+                            centers may be associated with changes in nearby
+                            residential property values.
+                        </p>
+                    </div>
+
+
+                    <div class="research-block question-block">
+                        <p class="small-label">Research Question</p>
+
+                        <blockquote>
+                            Does the manufacturing of data centers cause negative externalities to surrounding housing prices?
+                        </blockquote>
+                    </div>
+
+
+                    <div class="research-block">
+                        <h4>Research Process</h4>
+
+                        <div class="process-list">
+                            <div class="process-item">
+                                <span>01</span>
+
+                                <div>
+                                    <h5>Defined the research question</h5>
+
+                                    <p>
+                                        Multiple protest's were being held during the start up of the Monterey Park Data Center. Residents were concerned about the potential increase in noise, electrical demand, and property value.
+                                </div>
+                            </div>
+
+                            <div class="process-item">
+                                <span>02</span>
+
+                                <div>
+                                    <h5>Collected and reviewed data</h5>
+
+                                    <p>
+                                        Obtained housing pice data from Redfin, focusing on sqft, bed, and bath. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="process-item">
+                                <span>03</span>
+
+                                <div>
+                                    <h5>Prepared the dataset</h5>
+
+                                    <p>
+                                        Organized, cleaned, and compared data
+                                        through an Excel document.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="process-item">
+                                <span>04</span>
+
+                                <div>
+                                    <h5>Analyzed the relationship</h5>
+
+                                    <p>
+                                        Applied regression in software R, to see a change in Virginia housing values before and after data centers were built. Then used the change in percentage using Stata for a difference-in-difference framework to see statistical change within Monterey Park housing prices.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="process-item">
+                                <span>05</span>
+
+                                <div>
+                                    <h5>Communicated the findings</h5>
+
+                                    <p>
+                                        Presented the research question,
+                                        theories, results, limitations, and
+                                        conclusions through a research paper and presentation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="research-block">
+                        <h4>Economic Concepts</h4>
+
+                        <div class="concept-grid">
+                            <div>
+                                <h5>Negative Externalities</h5>
+
+                                <p>
+                                    Costs from economic activity that may affect
+                                    people who are not directly involved in the
+                                    transaction.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>Hedonic Pricing</h5>
+
+                                <p>
+                                    Valuation method that estimates how specific internal features and external environmental factors affect the overall market price of a good or service.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>Regression Model</h5>
+
+                                <p>
+                                    Statistical tool used to estimate the relationship between a dependent target variable and one or more independent predictor variables.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5>Difference-in-Differences</h5>
+
+                                <p>
+                                    Statistical method used to estimate the causal effect of a specific intervention or policy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="research-block">
+                        <h4>What I Learned</h4>
+
+                        <p>
+                            This project strengthened my ability to take a controversial topic and turn it into a structured economic
+                            research process.
+                        </p>
+
+                        <p>
+                            I gained experience working with data, examining
+                            possible relationships between variables,
+                            considering alternative explanations, and
+                            communicating conclusions without overstating what
+                            the evidence could prove.
+                        </p>
+                    </div>
+
+
+                    <div class="research-block results-block">
+                        <h4>Research Findings</h4>
+
+                        <p>
+                            The analysis found that there was no statistically signifigant evidence that data centers affecting nearby housing prices. However the results were limited by the timeframe, and the small set of varibales that I could obtain. Additional research and data could examine a broader idea
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="project-summary">
+
+    <div class="summary-left">
+
+        <p class="summary-label">
+            Bachelor of Science in Economics
+        </p>
+
+        <h3>Research Summary</h3>
+
+        <p>
+            This research examined whether proximity to data centers influences
+            nearby housing prices through potential negative externalities such
+            as noise, infrastructure demand, and environmental impacts.
+        </p>
+
+    </div>
+
+    <div class="summary-right">
+
+        <h4>Project Details</h4>
+
+        <ul>
+
+            <li>
+                <strong>University</strong><br>
+                Cal Poly Pomona
+            </li>
+
+            <li>
+                <strong>Course</strong><br>
+                Senior Research
+            </li>
+
+            <li>
+                <strong>Year</strong><br>
+                2026
+            </li>
+
+            <li>
+                <strong>Skills Used</strong><br>
+                R, Stata, Statistical Analysis, Data Cleaning, Economic Research, Excel, Data Visualization
+            </li>
+
+            <li>
+                <strong>Topic</strong><br>
+                Housing Economics
+            </li>
+
+        </ul>
+
+        <a
+            class="primary-button"
+            href="kimberly-andresen-data-centers-research.pdf"
+            target="_blank"
+        >
+            📄 Read Full Research Paper
+        </a>
+
+    </div>
+
+</div>
+
+            </article>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="section-label">Skills</p>
+                <h2>Research and analytical capabilities.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Research</h3>
+
+                    <p>
+                        Research design, literature review, source evaluation,
+                        and economic analysis
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Data</h3>
+
+                    <p>
+                        Data collection, cleaning, organization, comparison,
+                        and interpretation
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Analysis</h3>
+
+                    <p>
+                        Quantitative reasoning, trend identification, and
+                        statistical interpretation
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Communication</h3>
+
+                    <p>
+                        Research writing, presentations, data storytelling,
+                        and explaining complex findings
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Tools</h3>
+
+                    <p>
+                        R, Stata,Microsoft Excel, Microsoft PowerPoint, and
+                        Microsoft Word
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Economics</h3>
+
+                    <p>
+                        Housing economics, externalities, public policy,
+                        and economic theory
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="contact-content">
+                <p class="section-label light-label">Contact</p>
+
+                <h2>Let's connect.</h2>
+
+                <p>
+                    I am interested in opportunities involving economics,
+                    research, data analysis, and community impact.
+                </p>
+
+                <div class="contact-links">
+                    <a href="mailto:Klandresen04@gmail.com">
+                        Email Me
+                    </a>
+
+                    <!-- Replace this with your actual LinkedIn address -->
+                    <a
+                        href="https://www.linkedin.com/in/kimberly-andresen4060/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+
+                    <!-- Replace this with your actual GitHub address -->
+                    <a
+                        href="https://github.com/klandresen04-cloud/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            © <span id="currentYear"></span> Kimberly Andresen
+        </p>
+
+        <p>Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
